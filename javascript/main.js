@@ -1,7 +1,8 @@
-import { makeForm, bearForm} from './bear.js';
-
+import { createForm, getValues } from "./bear.js";
 
 const init = () => {
-    makeForm();
-    bearForm();
+  createForm();
+  getValues();
 };
+
+init();
